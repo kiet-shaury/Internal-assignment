@@ -1,0 +1,290 @@
+*{
+  margin: 0px;
+}
+
+
+#title {
+  background-image: linear-gradient(to right,#FC5D71 ,#A8866C,#5C9ED1);
+
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  position: relative;
+  flex-direction: column;
+  height: 750px;
+  
+  background-color: #F0F0F0;
+}
+
+.gradient-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+  background-image: linear-gradient(to right,#FC5D71 ,#A8866C,#5C9ED1);
+}
+
+.content {
+  position: absolute;
+  top: 50%;
+  left: 35%;
+
+  padding: 50px;
+  transform: translate(-50%, -50%);
+  color:black;
+  text-align: center;
+}
+
+h1 {
+  font-size: 54px;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.btn-light {
+  font-size: large;
+  background-color: #fff;
+  color: #000;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+
+  margin-right: 110px;
+}
+
+.btn-outline-light {
+  font-size: large;
+  background-color: transparent;
+  color: #fff;
+  border: 2px solid #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+
+}
+
+.iphone-image {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: auto;
+  height: 700px;
+  margin-top: 5px;
+  padding-top: 5px;
+  margin-right:15%;
+}
+
+/* fearture section */
+
+
+.container2 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px; 
+  height: 300px;
+align-items: center;
+} 
+.cardbody{
+  display: flex;
+  flex-direction: column;
+}
+.card {
+ 
+  align-items: center;
+  padding: 100px;
+  width: 300px; 
+}
+
+.card-title {
+
+  text-align: left;
+  font-weight: bold;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.card-text {
+  font-size: 20px;
+  color: #888;
+}
+
+
+/*  price section */
+.pricing-section {
+  text-align: center;
+  padding: 50px 0;
+  height: 500px;
+}
+
+
+.pricing-section h2 {
+  font-size: 52px;
+  font-weight: lighter;
+  font-family:R ;
+  margin-bottom: 20px;
+}
+
+.pricing-section p {
+  font-size: 18px;
+  margin-bottom: 40px;
+ 
+}
+
+.pricing-plans {
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.plan {
+ 
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 40px;
+  width: 300px;
+  margin: 50px;
+ 
+  
+}
+
+.plan h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  padding: 0px;
+ 
+ 
+}
+
+.plan .price {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  
+}
+
+.plan .features {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.plan .features li {
+  margin-bottom: 10px;
+}
+
+.btn {
+  background-color: black;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  display: block;
+  width: 100%;
+}
+
+/* testemonial section*/
+
+
+.container3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color :#fff4f4;
+  height: 600px; /* Adjust the height as needed */
+}
+
+.quote {
+  flex: 1;
+  padding-left: 20px;
+  margin-top: 50px;
+}
+
+.quote p {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.image {
+  flex: 1;
+  text-align: center;
+}
+
+.image img {
+  max-width: 100%;
+  border-radius: 50%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.image p {
+  font-size: 18px;
+  color: #888;
+}
+
+.logos {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 20px;
+}
+
+.logos img {
+  padding: 50px;
+   width: auto;
+  height:40px ;
+}
+
+/* footer */
+
+
+.container4 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 300px; /* Adjust the height as needed */
+  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+}
+
+.logo2 {
+  flex: 1;
+  text-align: center;
+  color: #fff;
+}
+
+.logo2 p {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.logo2 img {
+  max-width: 100px;
+  height: auto;
+}
+
+.sections {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 50px;
+}
+
+.section {
+  text-align: center;
+  color: #fff;
+}
+
+.section p {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
